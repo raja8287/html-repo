@@ -1,0 +1,30 @@
+label{
+    color: yellow !important;
+}
+#password2{
+    color: magenta !important;
+}
+#saitm{
+    color: greenyellow !important;
+
+}
+.username{
+    color: red !important;
+    border-width: 13px;
+    margin: 10px;
+
+}
+.password2{
+    background-color:coral;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.fontType{
+    font-size: 30px;
+
+}
+.name{
+    border:red ;
+    background-color: blue;
+    margin: ;
+    padding: 100px;
+}
