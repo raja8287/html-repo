@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    background:grey;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    line-height: 1.5;
+}
+h2{
+    margin: 0;
+    padding: 1em;
+
+}
+p{
+    margin:0;
+    paddign:1em;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.bg{
+    position: absolute;
+    background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#headerid{
+    text-align: center;
+    min-height: 450px;
+    color:#fff;
+}
+#headerid h1{
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+#headerid p{
+    color: violet;
+}
+.btn{
+    background: #fff; 
+    color:#333;
+    cursor: pointer;
+}
+#section-a{
+    background:royalblue;
+    color:#333;
+    padding-bottom:2em;
+}
+#section-b{
+    display: grid;
+    padding: 2em;
+
+}
+#section-b ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+#section-b li{
+    background: white;
+    color: #333;
+    width:31%;
+    margin-bottom:  1em;
+}
