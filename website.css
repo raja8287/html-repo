@@ -14,7 +14,7 @@ h2{
 }
 p{
     margin:0;
-    paddign:1em;
+    padding:1em;
 }
 img{
     display: block;
@@ -83,4 +83,22 @@ img{
     background-color:white;
     color:#333;
     padding: 0 2em 0 2em;
+}
+#section-d{
+    display: flex;
+}
+#section-d .box{
+    padding:1em;
+}
+#section-d .box:first-child{
+    background:skyblue;
+}
+#footer{
+    background:black;
+    color:white;
+    display: flex;
+    padding:2em;
+}
+#footer div:last-child{
+    margin-left: auto;
 }
