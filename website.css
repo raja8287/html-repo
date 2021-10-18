@@ -50,6 +50,11 @@ img{
     color:#333;
     cursor: pointer;
 }
+.btn:hover{
+    background:greenyellow ;
+    color: black;
+
+}
 #section-a{
     background:royalblue;
     color:#333;
@@ -72,4 +77,10 @@ img{
     color: #333;
     width:31%;
     margin-bottom:  1em;
+}
+
+#section-c{
+    background-color:white;
+    color:#333;
+    padding: 0 2em 0 2em;
 }
