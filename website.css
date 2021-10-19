@@ -49,6 +49,8 @@ img{
     background: #fff; 
     color:#333;
     cursor: pointer;
+    border: 1px solid;
+    padding: 1em;
 }
 .btn:hover{
     background:greenyellow ;
@@ -101,4 +103,32 @@ img{
 }
 #footer div:last-child{
     margin-left: auto;
+}
+@media only screen and {max-width:600px} {
+    #section-b ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #section-b li{
+        background: white;
+        color: #333;
+        width:100%;
+        margin-bottom:  1em;
+    }
+    #section-d{
+        display: block;
+    }
+    #footer{
+        background:black;
+        color:white;
+        display: block;
+        padding:2em;
+    }
+    #footer div:last-child{
+        margin-top: 2em;
+    }
 }
